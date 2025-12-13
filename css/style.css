@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+body{
+    background-color: #3996DB;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    background-color: white;
+    text-align: left;
+}
+.col-1{
+    width: 15%;
+}
+.col-2{
+    width: 25%;
+}
+.col-3{
+    width: 50%;
+}
+h1{
+    text-align: center;
+
+}
+.infolink{
+    text-decoration: none;
+    color: black;
+}
+.infolink:hover{
+    text-decoration: underline;
+    color: grey;
+}
+footer{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.experience{
+    float: left;
+}
+.degrees{
+    float: right;
+}
