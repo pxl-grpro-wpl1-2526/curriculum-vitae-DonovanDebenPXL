@@ -29,14 +29,23 @@ body{
     width: 50%;
 }
 h1{
+    margin: 20px;
     text-align: center;
 
 }
-.infolink{
+.link{
     text-decoration: none;
     color: black;
 }
-.infolink:hover{
+.link:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.footerlink{
+    color: white;
+    text-decoration: none;
+}
+.footerlink:hover{
     text-decoration: underline;
     color: grey;
 }
