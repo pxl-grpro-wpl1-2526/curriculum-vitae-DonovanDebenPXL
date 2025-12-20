@@ -12,7 +12,7 @@ body{
 }
 
 .col{
-    border: 1px solid black;
+    border: 3px solid #24D9C0;
     border-radius: 10px;
     padding: 10px;
     margin: 2px;
@@ -28,6 +28,9 @@ body{
 .col-3{
     width: 50%;
 }
+.col-4{
+    width: 20%;
+}
 h1{
     margin: 20px;
     text-align: center;
@@ -39,7 +42,7 @@ h1{
 }
 .link:hover{
     text-decoration: underline;
-    color: grey;
+    color: #24D9C0;
 }
 .footerlink{
     color: white;
@@ -47,7 +50,7 @@ h1{
 }
 .footerlink:hover{
     text-decoration: underline;
-    color: grey;
+    color: #24D9C0;
 }
 footer{
     color: white;
@@ -59,4 +62,55 @@ footer{
 }
 .degrees{
     float: right;
+}
+.languages{
+    float: right;
+}
+.languages li:nth-child(even){
+    list-style-type: square;
+}
+.languages li:nth-child(odd){
+    list-style-type: circle;
+    font-style: italic;
+}
+.photo{
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    max-width: 350px;
+    border-radius: 10px;
+
+}
+.photo:hover{
+    box-shadow: 3px 3px 10px black;
+}
+@media screen and (max-width:578px) {
+    .photo{
+        max-width: 200px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col{
+        overflow: scroll;
+        justify-content: center;
+    }
+    .col-1{
+        width: 80%;
+    }
+    .col-2{
+        width: 80%;
+    }
+    .col-3{
+        width: 80%;
+    }
+    .col-4{
+        width: auto;
+    }
+
 }
